@@ -1,0 +1,30 @@
+$orange:    #E94E1B;
+$blue:      #0D4687;
+$peach:     #F58F83;
+$black:     #000000;
+
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+
+@import url("https://use.typekit.net/qyo8zre.css");
+@import "~bulma/bulma.sass";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+body {
+    background-color: $peach;
+}
+
+#tanks {
+    width: 75vw;
+}
+
+#headline {
+    font-family: 'Myriad Pro', sans-serif;
+    text-transform: uppercase;
+    color: $blue;
+}
+
+#holding-page {
+    padding: 32px 0;
+}
+
